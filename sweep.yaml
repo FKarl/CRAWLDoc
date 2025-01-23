@@ -1,0 +1,20 @@
+program: train_retrieval.py
+method: grid
+name: Hyperparameter_search_2048_fixed_batch_size
+metric:
+    name: Normalized Discounted Cumulative Gain
+    goal: maximize
+command:
+  - ${env}
+  - CUDA_VISIBLE_DEVICES=1
+  - python3
+  - ${program}
+  - ${args}
+  - --run_name=hyperparameter_search
+parameters:
+  patience:
+    values: [2, 5]
+  learning_rate:
+    values: [1e-5, 2e-5, 3e-5]
+  num_accumulation_steps:
+    values: [1, 16, 32, 64]

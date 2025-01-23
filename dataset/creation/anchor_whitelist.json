@@ -1,0 +1,10 @@
+[
+  "^PDF$",
+  "^Skip to main content$",
+  "^\\[?v\\d+\\]?$",
+  "^Which authors of this paper are endorsers\\?$",
+  "^arXiv:\\d+\\.\\d+v\\d$",
+  "^INSPIRE HEP$",
+  "^Download PDF$",
+  "^View Abstract$"
+]

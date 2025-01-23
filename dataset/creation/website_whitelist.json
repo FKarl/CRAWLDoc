@@ -1,0 +1,11 @@
+[
+  "^(http|https)://arxiv.org/abs/.*context=.*$",
+  "^(http|https)://arxiv.org/pdf.*$",
+  "^(http|https)://arxiv.org/html.*$",
+  "^(http|https)://orcid.org/.*$",
+  "^(http|https)://ieeexplore.ieee.org/author.*$",
+  "^(http|https)://(www.)?sciencedirect.com/author/.*$",
+  "^(http|https)://dl.acm.org/profile.*$",
+  "^(http|https)://api.semanticscholar.org/.*$",
+  "^(http|https)://plu.mx.*$"
+]
